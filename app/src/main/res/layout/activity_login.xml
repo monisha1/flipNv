@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_login_background"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <TextView
+        android:id="@+id/login_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="Thank you!"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_header"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="you earned 10 points"
+        android:textColor="@color/brown"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvredeem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="To redeem, continue with"
+        android:textColor="@color/white_60"
+        android:textSize="12sp"/>
+
+    <RelativeLayout
+        android:id="@+id/rlFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvredeem"
+        android:gravity="center"
+        android:layout_margin="12dp"
+        android:background="@drawable/facebook_login_background">
+
+        <ImageView
+            android:id="@+id/ivFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="72dp"
+            android:background="@drawable/facebook_login" />
+
+        <TextView
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_toRightOf="@+id/ivFacebook"
+            android:paddingLeft="32dp"
+            android:gravity="left|center_vertical"
+            android:text="Facebook"
+            android:textSize="20sp"
+            android:textColor="@color/white_60"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+    <TextView
+    android:id="@+id/tvwithemail"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_below="@+id/rlFacebook"
+    android:text="or with email address"
+    android:textColor="@color/white_60"
+    android:textSize="12sp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rlLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvwithemail"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white_60"
+                android:backgroundTint="@color/white_60">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTint="@color/white_60"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    style="@style/AppThemeBlue.CommonEditText"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white_60"
+                android:textColorHint="@color/white_60">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:drawableTint="@color/white_60"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    style="@style/AppThemeBlue.CommonEditText" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingTop="5dp"
+                android:text="Forgot Password?" />
+-->
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/login_background"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlLogin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true" >
+    <TextView
+        android:id="@+id/tvash"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="new to Ash?"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:textColor="@color/white_60"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvsignup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Sign Up"
+        android:layout_weight="1"
+        android:layout_gravity="left"
+        android:layout_toRightOf="@+id/tvash"
+        android:textColor="@color/brown"
+        android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+    </ScrollView>

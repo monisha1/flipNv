@@ -1,0 +1,43 @@
+<resources>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_image_width">94dp</dimen>
+    <dimen name="activity_image_height">54dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="activity_gutter_margin">16dp</dimen>
+    <dimen name="activity_gutter_margin_double">32dp</dimen>
+    <dimen name="activity_gutter_margin_quadruple">64dp</dimen>
+    <dimen name="activity_gutter_margin_One_quadruple">84dp</dimen>
+    <dimen name="activity_gutter_margin_one_and_half">24dp</dimen>
+    <dimen name="activity_gutter_margin_three_fourth">12dp</dimen>
+    <dimen name="activity_gutter_margin_half">8dp</dimen>
+    <dimen name="activity_gutter_margin_quarter">4dp</dimen>
+
+    <dimen name="app_bar_elevation">2dp</dimen>
+
+    <dimen name="common_button_height">56dp</dimen>
+    <dimen name="common_button_text_size">16sp</dimen>
+
+    <dimen name="logo_text_size">46sp</dimen>
+
+    <dimen name="common_card_radius">2dp</dimen>
+    <dimen name="chat_card_radius">4dp</dimen>
+    <dimen name="common_card_elevation">4dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+
+
+    <!-- Profile Pic dimension-->
+
+    <!--StatusBean Icon Dimensions-->
+    <dimen name="status_icon_width">16dp</dimen>
+    <dimen name="status_icon_height">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+</resources>

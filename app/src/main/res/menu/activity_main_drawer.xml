@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/menu_nav_home"/>
+        <item
+            android:id="@+id/scan"
+            android:title="Scan"
+            android:icon="@drawable/manu_nav_reward"/>
+        <item
+            android:id="@+id/rewardPoints"
+            android:title="Reward Points"
+            android:icon="@drawable/menu_nav_star"/>
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/menu_nav_profile"/>
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/menu_nav_home"/>
+    </group>
+</menu>
